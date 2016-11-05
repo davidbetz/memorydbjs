@@ -1,0 +1,1 @@
+mochista --report lcov text html -w

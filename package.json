@@ -1,0 +1,20 @@
+{
+  "name": "memorydb",
+  "version": "1.2.2",
+  "description": "",
+  "keywords": [],
+  "author": "David Betz",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test",
+    "report-coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "codecov": "^2.3.0",
+    "debug": "^2.6.8",
+    "istanbul": "^0.4.5",
+    "js-beautify": "^1.6.14",
+    "mocha": "^3.4.2"
+  }
+}
